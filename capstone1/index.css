@@ -1,0 +1,155 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#navbar-brand {
+    font-family: 'Protest Revolution', sans-serif;
+}
+
+/* Custom Styles for Navbar */
+#navbar {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.8) 100%);
+}
+
+#navbar a.navbar-brand,
+#navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+#navbar .navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: cyan;
+    text-shadow: 0 0 10px cyan; /* Add a glowing effect */
+}
+
+.profile-link-img {
+    height: 20px; 
+    width: 20px;
+}
+
+.bg-image {
+            background-image: url(./images/1.gif); /* Replace 'your-image-url.jpg' with the actual path to your image */
+            background-size: cover;
+            background-position: center;
+            height: 100vh; /* Adjust the height as needed */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff; /* Set text color for better visibility */
+}
+
+ #projects {
+        background-image: url('./images/body.gif');
+        background-size: cover;
+        background-position: center;
+        color: white; 
+    }
+
+.square-image {
+        object-fit: cover;
+        height: 300px; /* Adjust the height as needed for your square images */
+        width: 100%; /* Ensure 100% width for responsiveness */
+    }
+
+@media (min-width: 576px) {
+        .order-lg-1 {
+            order: 2;
+        }
+
+        .order-lg-2 {
+            order: 1;
+        }
+    }
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card {
+    position: relative;
+}
+
+.card-text {
+    padding: 1rem;
+}
+
+.last-updated: before {
+    position: absolute;
+    bottom: 10px;
+    content: "8: 22pm";
+    font-style: italic;
+    font-size: 0.8rem;
+    color: #999;
+}
+
+
+.card-link {
+    position: absolute;
+    bottom: 10px; 
+}
+
+.underline {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-bottom: 1px solid #000;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+
+.contact-info-item {
+    display: flex;
+    align-items: center;
+}
+
+#contact-information {
+    background-color: black;
+    color: cyan;
+    text-shadow: 0 0 10px cyan;
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-glow {
+    background: none;
+    border: none;
+    border-radius: 50px;
+    color: #343a40;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn-glow:hover {
+    background: cyan;
+    box-shadow: 0 0 10px cyan;
+    color: #fff;
+}
+
+#submit {
+	justify-content: right;
+}
